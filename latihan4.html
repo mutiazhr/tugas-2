@@ -26,8 +26,7 @@
     </style>
 <body style="background: linear-gradient(to right, #e1eec3, #f05053);"> 
     <h1 style="text-align: center;"> <i>Red Velvet</i> </h1>
-        <p class="info" div style="border:1px solid black"> Red Velvet adalah grup vokal perempuan Korea Selatan yang dibentuk oleh SM Entertainment pada tahun 2014 dan terdiri dari lima anggota, yaitu Irene, Seulgi, Wendy, Yeri, dan Joy. Mereka memulai karier pada 1 Agustus 2014 dengan merilis singel digital "Happiness (Kebahagiaan)" 
-            dengan formasi awal 4 anggota , Irene, Seulgi, Wendy, dan Joy. Pada Maret 2015, Red Velvet memiliki satu anggota baru yaitu Yeri. Nama Red Velvet memiliki gabungan arti, dimana red (merah) melambangkan warna yang menyala serta bergairah, dan velvet (sutra) melambangkan citra feminin dan lembut. Dualitas ini tercermin dalam musik dan konsep mereka.</p>
+        <p class="info" div style="border:1px solid black"> Red Velvet adalah grup vokal perempuan Korea Selatan yang dibentuk oleh SM Entertainment pada tahun 2014 dan terdiri dari lima anggota, yaitu Irene, Seulgi, Wendy, Yeri, dan Joy. Mereka memulai karier pada 1 Agustus 2014 dengan merilis singel digital "Happiness (Kebahagiaan)" dengan formasi awal 4 anggota , Irene, Seulgi, Wendy, dan Joy. Pada Maret 2015, Red Velvet memiliki satu anggota baru yaitu Yeri. Nama Red Velvet memiliki gabungan arti, dimana red (merah) melambangkan warna yang menyala serta bergairah, dan velvet (sutra) melambangkan citra feminin dan lembut. Dualitas ini tercermin dalam musik dan konsep mereka.</p>
         <img src="images/rebelbet.jpg" width="800">
     <h3> Daftar Isi </h3>
     <ul style="color: white;">
@@ -150,5 +149,58 @@
             <td>Album of the Year - 3rd Quarter untuk "Perfect Velvet"</td>
         </tr>
     </table>
+    <hr>
+        <div class="container">
+        <h1> Your Favourite About Tulus's Album </h1>
+        </div>
+        <div class="info"><p>Sembilan tahun sudah Red Velvet aktif menjadi idol grup. Selain itu, sudah banyak juga lagu-lagu baik dari album maupun EP yang mereka lantunkan. sudah banyak lagu dan album yang dihasilkan. Hampir semua lagu tersebut akrab di pendengaran masyarakat Indonesia. Dari 4 album studio dan 1 album rekaman langsung karya Tulus, yang manakah yang menjadi favorit kalian? <br> Yuk pilih album karya Tulus favorit kalian!</p>
+        <hr><hr>
+<form action="/data_matkul_fav.php/">
+            <label for="nama">Username:</label><br>
+            <input type="text" id="nama" name="nama"><br>
+                <br>
+            <label for="ID">ID Number:</label><br>
+            <input type="text" id="ID" name="ID"><br>
+        
+            <br><hr>
+
+            <p><b>Kapan Awal Menjadi Teman Tulus?</b></p>
+            <input type="radio" id="2011" name="year" value="2011">
+            <label for="2011">Sejak 2011</label>
+                <br>
+            <input type="radio" id="2014" name="year" value="2014">
+            <label for="2014">Setelah Album "Gajah"</label>
+                <br>
+            <input type="radio" id="2016" name="year" value="2016">
+            <label for="2016">2016 dan seterusnya</label>
+                <br>
+            <input type="radio" id="2022" name="year" value="2022">
+            <label for="2022">Newbie (2022 - saat ini)</label>
+        
+            <br><hr>
+
+            <p><b>Album Favorit</b></p>
+            <input type="checkbox" id="tulus" name="album" value="Album Tulus">
+            <label for="tulus">TULUS<label>
+                <br>
+            <input type="checkbox" id="gajah" name="album" value="Album Gajah">
+            <label for="gajah">GAJAH<label>
+                <br>
+            <input type="checkbox" id="monokrom" name="album" value="Album Monokrom">
+            <label for="monokrom">MONOKROM<label>
+                <br>
+            <input type="checkbox" id="konser" name="album" value="Album Konser">
+            <label for="konser">Tulus: Langsung Dari Konser Monokrom Jakarta<label>
+                <br>
+            <input type="checkbox" id="manusia" name="album" value="Album Manusia">
+            <label for="manusia">MANUSIA<label>
+        
+                <br><br><hr>
+
+            <button type="button" onclick="alert ('thank you!')">Done</button>
+            <button type="submit" onclick="alert ('thankyou')">Submit here</button>
+            <button type="reset">reset</button>
+        </form>
+        </div>
 </body> 
 </html> 
