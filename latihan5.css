@@ -28,8 +28,16 @@ h1 {
     opacity: 100px;
 }
 
+.content2 {
+    width: 900px;
+    margin: 20px auto;
+    background-color: rgb(179, 240, 205);
+    border: 5px dotted #e4d1bf;
+    opacity: 100px;
+}
+
 h2 {
-    background-color: whitesmoke;
+    background-color: snow;
     opacity: 20px;
     color: black;
     text-align: center;
