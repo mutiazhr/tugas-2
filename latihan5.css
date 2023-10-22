@@ -31,9 +31,17 @@ h1 {
 .content2 {
     width: 900px;
     margin: 20px auto;
-    background-color: rgb(179, 240, 205);
+    background-color: rgba(179, 240, 205, 0.877);
     border: 5px dotted #e4d1bf;
     opacity: 100px;
+}
+
+.content3 {
+    width: 900px;
+    margin: 20px auto;
+    background-color: rgba(245, 166, 245, 0.963); 
+    border: 5px dotted #e4d1bf;
+    opacity: 150px;
 }
 
 h2 {
