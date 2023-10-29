@@ -1,0 +1,54 @@
+header {
+    background-color: rgba(255, 252, 98, 0.881);
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/4/4d/Running_Man_New_logo.svg/revision/latest/scale-to-width-down/280?cb=20230820005622);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: left;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    background: linear-gradient(90deg, rgba(220,235,234,0.5356267507002801) 6%, rgba(180,205,213,1) 35%, rgba(253,255,157,1) 74%);
+    background-repeat: repeat;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(40, 91, 172);
+}
+
+#runningman-image {
+    display: block;
+    margin: 0 auto;
+    width: 750px;
+    border-style: 50px solid  rgb(40, 91, 172)3d;
+    border-radius: 10px;
+    width: 1500; 
+    height: 590;
+}
+
+.outline {
+    outline-style: dashed;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    background-color: #5c8edec8;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: justify;
+}
+
+.list {
+    list-style-type: circle;
+    outline-style: dashed;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    background-color: #5c8edec8;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
