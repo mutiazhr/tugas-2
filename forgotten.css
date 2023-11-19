@@ -1,0 +1,131 @@
+:root {
+  --primary: #5b151d;
+  --bg: #010101;
+}
+
+body {
+  font-family: "Playfair Display", sans-serif;
+  background-color: var(--bg);
+  color: #fff;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #5b151d;
+  color: honeydew;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+/* Page Content */
+.content {
+  padding: 2rem 7% 1.4rem;
+  width: 900px;
+  /* min-height: 5000px; */
+  margin: 20px auto;
+  background-color: #5b151da0;
+  border: 5px dotted rgb(98, 44, 44);
+}
+
+.content h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  margin-top: -2rem;
+  padding: 2rem 7% 1.4rem;
+}
+
+.content h1 span {
+  font-weight: 800;
+  font-style: italic;
+}
+
+.content p {
+  text-align: justify;
+}
+
+.content h2 {
+  justify-content: center;
+}
+
+/* Footer Sectiion */
+footer {
+  background-color: var(--primary);
+  text-align: center;
+  padding: 1rem 0 2rem;
+  margin-top: 3rem;
+}
+
+footer .socials {
+  padding: 1rem;
+}
+
+footer .socials a {
+  color: #fff;
+  margin: 1rem;
+}
+
+footer .socials a:hover,
+footer .links a:hover {
+  color: var(--bg);
+}
+
+footer .links {
+  margin-bottom: 1.6rem;
+  font-size: 1.2rem;
+}
+
+footer .links a {
+  color: #fff;
+  padding: 0.7rem 1rem;
+  font-weight: 700;
+}
+
+footer .credit {
+  font-size: 0.9rem;
+}
+
+footer .credit a {
+  color: var(--bg);
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 450px) {
+  .header {
+    font-size: 25px;
+  }
+
+  .header .content h1 {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+
+  .header .content h2 {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .header .content img {
+    height: 24rem;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .header .content {
+    grid-template-columns: 1fr;
+    padding: o;
+  }
+
+  .header .content p {
+    font-size: 1.5rem;
+  }
+}
