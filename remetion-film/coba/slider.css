@@ -1,0 +1,40 @@
+.images {
+  display: flex;
+  width: 100%;
+  transition: 2s;
+}
+
+.images img {
+  width: 100%;
+}
+
+.menu {
+  width: 800px;
+  margin: auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.slides {
+  position: relative;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+#slide-1:target ~ .images {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#slide-2:target ~ .images {
+  margin-left: 0%;
+  margin-right: 100%;
+}
+
+#slide-3:target ~ .images {
+  margin-left: -200%;
+}
+
+#slide-3:target ~ .images {
+  margin-left: -400%;
+}
